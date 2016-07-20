@@ -31,6 +31,8 @@ import struct
 import logging
 import requests
 import argparse
+import collections
+import pickle
 
 
 
@@ -52,9 +54,11 @@ from geopy.distance import VincentyDistance
 from time import sleep
 
 # for saving to database
-from flask.ext.mongoalchemy import MongoAlchemy
-from flask.ext.mongoalchemy import BaseQuery
+
 from main import Pokemon
+from datetime import datetime
+
+
 
 log = logging.getLogger(__name__)
 
@@ -181,16 +185,18 @@ def main():
         #     print cell['nearby_pokemons']
         if "catchable_pokemons" in cell:
             #print "catchable_pokemons"
-            #print cell['catchable_pokemons']
+            print cell['catchable_pokemons']
             for pokemon in cell['catchable_pokemons']:
-                pokemon_id = pokemon['pokemon_id']
-                longitude = pokemon['longitude']
-                latitude = pokemon['latitude']
+                pokemon_id = int(pokemon['pokemon_id'])
+                longitude = float(pokemon['longitude'])
+                latitude = float(pokemon['latitude'])
                 expiration_timestamp_ms = pokemon['expiration_timestamp_ms']
                 if pokemon_id in MOST_WANTED_POKEMON_ID:
                     print "pokemon_id",pokemon_id
                     print longitude
                     print latitude
+                #no1 = Pokemon(pid=pokemon_id,lat=latitude,lng=longitude, report_time =  datetime.now() )
+                #no1.save()
                     #print expiration_timestamp_ms
                 #print pokemon_id
                 #p = client.get_pokemon(uid=pokemon_id)
@@ -256,45 +262,66 @@ def main_2(position):
     # get map objects call
     timestamp = "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
     cellid = get_cellid(position[0], position[1])
+    try:
+        ENCOUNTER_ID_LIST  = load_data('./ENCOUNTER_ID_LIST.data')
+    except:
+        ENCOUNTER_ID_LIST = []
+    ENCOUNTER_ID_LIST = collections.deque(ENCOUNTER_ID_LIST)
+    for i in xrange(16):
+        next_lat, next_lon = move(start_lat, start_lon, 0.01, 30)
+        #print next_lat, next_lon
+        position = (next_lat, next_lon, 0.0)
+        api.set_position(*position)
 
-    for i in xrange(100):
-        for b in xrange(9):
-            next_lat, next_lon = move(start_lat, start_lon, 0.02, b*10)
-            #print next_lat, next_lon
-            position = (next_lat, next_lon, 0.0)
-            api.set_position(*position)
+        api.get_map_objects(latitude=f2i(position[0]), longitude=f2i(position[1]), since_timestamp_ms=timestamp, cell_id=cellid)
 
-            api.get_map_objects(latitude=f2i(position[0]), longitude=f2i(position[1]), since_timestamp_ms=timestamp, cell_id=cellid)
+        # get download settings call
+        #api.download_settings(hash="4a2e9bc330dae60e7b74fc85b98868ab4700802e")
 
-            # get download settings call
-            #api.download_settings(hash="4a2e9bc330dae60e7b74fc85b98868ab4700802e")
+        # execute the RPC call
+        try:
+            response_dict = api.call()
+            map_cells = response_dict['responses']['GET_MAP_OBJECTS']['map_cells']
+            for cell in map_cells:
+                # if "nearby_pokemons" in cell:
+                #     print "nearby_pokemons"
+                #     print cell['nearby_pokemons']
+                if "catchable_pokemons" in cell:
+                    #print "catchable_pokemons"
+                    print cell['catchable_pokemons']
+                    for pokemon in cell['catchable_pokemons']:
+                        pokemon_id = int(pokemon['pokemon_id'])
+                        longitude = float(pokemon['longitude'])
+                        latitude = float(pokemon['latitude'])
+                        encounter_id = str(pokemon['encounter_id'])
+                        expiration_timestamp_ms = str(pokemon['expiration_timestamp_ms'])
+                        if encounter_id not in ENCOUNTER_ID_LIST:
+                            print "pokemon_id: ",pokemon_id
+                            print longitude
+                            print latitude
+                            new_pokemon = Pokemon(pid=pokemon_id,lat=latitude,lng=longitude, encounter_id= encounter_id, report_time = datetime.now() )
+                            new_pokemon.save()
+                            ENCOUNTER_ID_LIST.append(encounter_id)
+                            if len(ENCOUNTER_ID_LIST) > 5000:
+                                ENCOUNTER_ID_LIST.popleft()
 
-            # execute the RPC call
-            try:
-                response_dict = api.call()
-                map_cells = response_dict['responses']['GET_MAP_OBJECTS']['map_cells']
-                for cell in map_cells:
-                    # if "nearby_pokemons" in cell:
-                    #     print "nearby_pokemons"
-                    #     print cell['nearby_pokemons']
-                    if "catchable_pokemons" in cell:
-                        #print "catchable_pokemons"
-                        #print cell['catchable_pokemons']
-                        for pokemon in cell['catchable_pokemons']:
-                            pokemon_id = pokemon['pokemon_id']
-                            longitude = pokemon['longitude']
-                            latitude = pokemon['latitude']
-                            expiration_timestamp_ms = pokemon['expiration_timestamp_ms']
-                            if pokemon_id not in MOST_WANTED_POKEMON_ID:
-                                print "pokemon_id: ",pokemon_id
-                                print longitude
-                                print latitude
-                start_lat, start_lon = next_lat, next_lon
-                sleep(10)
-            except Exception, e:
-                print e
-                pass
+            start_lat, start_lon = next_lat, next_lon
+            sleep(10)
+        except Exception, e:
+            print e
+            pass
+    save_data(ENCOUNTER_ID_LIST)
 
+def save_data(dataset):
+    outputFile = 'ENCOUNTER_ID_LIST.data'
+    fw = open(outputFile, 'w')
+    pickle.dump(dataset, fw)
+    fw.close()
+
+def load_data(filename):
+    fr = open(filename)
+    dataset = pickle.load(fr)
+    return dataset
 
 def move(lat1, lon1, d=0.01, b=0):
     # lat1 = 43.0863282
@@ -308,7 +335,8 @@ def move(lat1, lon1, d=0.01, b=0):
 
 if __name__ == '__main__':
     #main()
-    main_2([43.0007, -78.782873])
+    while 1:
+        main_2([43.0007, -78.782873])
 
     # for i in xrange(1):
     #     next_lat, next_lon = move(start_lat, start_lon)

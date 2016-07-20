@@ -115,7 +115,7 @@
                 </section>
             </div>
             <div class="posts pure-u-24-24">
-                <h1 class="content-subhead">Pokemon Map</h1>
+                <h1 class="content-subhead">Real-time Pokemon Map</h1>
                 <div class="post-description_sameline">
 
 <!--         <h2> Template function centered, no marker </h2>
@@ -139,26 +139,26 @@
             </div>
 
 
-            <div class="posts">
+            <div class="posts pure-g">
                 <h1 class="content-subhead">Recent Report</h1>
 
-                <section class="post">
-                        <ul> 
+<!--                 <section class="post">
+ -->                        <ul> 
                             {% for item in info %}
 
-                            <div class="pure-u-2-24">
+                            <div class="pure-u-4-24 pure-u-xl-2-24">
                             <p>
                             <img alt="{{ item.get_name() }}" class="pure-img-responsive pica" src="{{ item.get_img_url() }}">
                             <strong>No.{{ item.get_pid() }}</strong> <br />
                             <strong>Name: {{ item.get_name() }}</strong> <br />
-                            <strong>Location: {{ item.get_loc() }}</strong> <br />
-                            <strong>Last Seen: {{ item.get_time() }}</strong> <br />
+                            <strong>Location: </strong> <br /> {{ item.get_loc_display() }} <br />
+                            <strong>Last Seen: </strong>  {{ item.get_time() }} <br />
                             </p>
                             </div>
                             {% endfor %}
                         </ul>
-                </section>
-            </div>
+<!--                 </section>
+ -->            </div>
 
 
 
