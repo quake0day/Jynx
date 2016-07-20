@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
 
-    <title>Si Chen's Homepage</title>
+    <title>Pokemon@UB</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
@@ -41,8 +41,9 @@
   
 
 
-    
-
+            {{"decoupled-map"|googlemap_js(37.4419, -122.1419, markers=[(37.4419, -122.1419)])}}
+            {{mymap.js}}
+            {{sndmap.js}}
     
 
 </head>
@@ -52,19 +53,18 @@
 	</div>
     <div class="pure-u-xl-20-24 pure-u-sm-24-24 pure-u-md-22-24">
          <div class="posts pure-u-24-24">
-            <h1>Si Chen</h1>
-            <h4>Department of Computer Science and Engineering</h4>
-<h4>University at Buffalo - SUNY </h4><h4>Office: 301 Davis Hall, Buffalo NY</h4>
+            <h1>Pokemon@UB</h1>
+            
         </div>
 
         <div>
 
             <!-- A wrapper for all the blog posts -->
             <div class="posts">
-                <h1 class="content-subhead">About Me</h1>
-
+<!--                 <h1 class="content-subhead">About Me</h1>
+ -->
                 <!-- A single blog post -->
-                <section class="pure-g">
+<!--                 <section class="pure-g">
 
                     <div class="pure-u-5-24">
                         <img alt="My avatar" class="pure-img-responsive pica" src="{{ url_for('static', filename='images/si.jpg') }}">
@@ -73,9 +73,9 @@
 
            <nav class="nav">
                 <ul class="nav-list">
-
+ -->
                  <!--    Résumé -->
-                     <li class="nav-item">
+<!--                      <li class="nav-item">
                         <a class="pure-button pure-button-primary" href="mailto:schen23@buffalo.edu?Subject=Hello!"><i class="fa fa-envelope"></i> Mail</a>
                     </li> 
                     <li class="nav-item">
@@ -95,9 +95,7 @@
                     </li>
                 </ul>
             </nav>
-                                         <p>I am a final year PhD student at University at Buffalo - SUNY in the Department of Computer Science and Engineering under the supervision of <a href="http://www.acsu.buffalo.edu/~kuiren/" target="_blank">Dr. Kui Ren</a>. 
-<br />
-During my PhD study, my primary research topic is exploring the novel ideas and techniques to solve practical problems and security issues for <strong>mobile sensing</strong> and <strong>cyber physical systems</strong>. In the context of mobile sensing systems, I am interested in smartphone-enabled crowdsourcing approaches that can help build large-scale information infrastructures conveniently at a very low cost. I also study cyber-physical system security from the physical layer, leveraging various related characteristics to enable inherently secure and dependable wireless communications.</p></div>
+</div> -->
 
 <!--                     <header class="post-header">
                         <img class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png">
@@ -117,53 +115,52 @@ During my PhD study, my primary research topic is exploring the novel ideas and 
                 </section>
             </div>
             <div class="posts pure-u-24-24">
-                <h1 class="content-subhead">Research Interests</h1>
-                <div class="post-description_sameline"><p>My research interests include physical layer security, cyber-physical system security, wireless system and smartphone-enabled crowdsourcing system, with current focus on exploring and improving the cloud-assisted mobile sensing security.</p>
-                </div>
+                <h1 class="content-subhead">Pokemon Map</h1>
+                <div class="post-description_sameline">
+
+<!--         <h2> Template function centered, no marker </h2>
+        {{googlemap("simple-map", 37.4419, -122.1419)}}
+
+        <h2> Template filter decoupled with single marker </h2>
+        {{"decoupled-map"|googlemap_html(37.4419, -122.1419)}}
+ -->
+
+<!--         <h2> Template function with multiple markers </h2>
+        {% with map=googlemap_obj("another-map", 37.4419, -122.1419, markers=[(37.4419, -122.1419), (37.4300, -122.1400)]) %}
+            {{map.html}}
+            {{map.js}}
+        {% endwith %}
+
+        <h2> First map generated in view</h2>
+        {{mymap.html}}
+ -->
+<!--         <h3> Example for different icons in multiple markers with infoboxes</h3>
+ -->        {{sndmap.html}}
             </div>
 
 
             <div class="posts">
-                <h1 class="content-subhead">Recent publications and pre-prints</h1>
+                <h1 class="content-subhead">Recent Report</h1>
 
                 <section class="post">
                         <ul> 
+                            {% for item in info %}
 
+                            <div class="pure-u-2-24">
+                            <p>
+                            <img alt="{{ item.get_name() }}" class="pure-img-responsive pica" src="{{ item.get_img_url() }}">
+                            <strong>No.{{ item.get_pid() }}</strong> <br />
+                            <strong>Name: {{ item.get_name() }}</strong> <br />
+                            <strong>Location: {{ item.get_loc() }}</strong> <br />
+                            <strong>Last Seen: {{ item.get_time() }}</strong> <br />
+                            </p>
+                            </div>
+                            {% endfor %}
                         </ul>
                 </section>
             </div>
 
 
-            <div class="posts pure-u-24-24">
-                <h1 class="content-subhead">Honors and Awards</h1>
-
-                <section class="post post-description_sameline ">
-                        <ul> 
-                            <li> <a href="http://www.sigmobile.org/mobicom/2013/app_finalists.html" target="_blank">The 19th Annual International Conference on Mobile Computing and Networking (ACM Mobicom’13) App Competition Finalists</a> (<a href="https://vimeo.com/77708077" target="_blank">Video</a>), 2013</li>
-                            <li> Student Travel Grant Awards, IEEE ICDCS, 2015</li>
-                            <li> Top 100 Excellent Graduate Theses in China Agricultural University, 2010</li>
-                            <li> Excellent Graduate Award in China Agricultural University, 2010</li>
-                            <li> National University Student Innovation Program Award, 2009-2010</li>
-                            <li> Undergraduate Research Program Award, 2007-2008</li>
-                            <li> Third Prize of International Interdisciplinary Contest in Modeling (ICM), 2009</li>
-                            <li> Third Prize of Scholarship for Excellent Academic Performance, 2007, 2008, 2009</li>
-                            <li> Awarded “The best debater” title in debate competitions, 2006, 2007</li>
-                        </ul>
-                </section>
-            </div>
-
-            <div class="posts pure-u-24-24">
-                <h1 class="content-subhead">Professional Services</h1>
-
-                <section class="post post-description_sameline ">
-                        <ul> 
-                            <li> <strong>Conference Reviewer</strong> for AsiaCCS'16, ICCCN’16, ACM CCS’15, ICDCS’15, ESORICS’15, AsiaCCS’15, Cloud’15, ICCCN’15, DBSec’15, CoudCom’15, ACM CHI’15, CloudNet’15, ISC’15, Securecomm’15, IEEE MSN’15, IPCCC’15, INFOCOM’14, ACM CCS’14, ICDCS’14, ESORICS’14, ICNP’14, AisaCCS’14, MobiHoc’14, CNS’14, CloudNet’14,DBSec’14, SecureComm’14.
-</li>
-                                                        <li> <strong>Journal Reviewer</strong> for IEEE Trans. on Parallel and Distributed Systems, IEEE Trans. on Services Computing, IEEE Trans. on Smart Grid, IEEE Trans. on Vehicular Technology, IEEE Trans. on Wireless Communications, IEEE Security & Privacy magazine, IEEE Network Magazine, Journal of Computer Security, Journal of Mobile Communication, Com- putation and Information, Journal of Parallel and Distributed Computing.</li>
-                                                        <li><strong>Webchair</strong> for <a href="http://www.cse.buffalo.edu/ccw13/" target="_blank">the 27th IEEE Annual Computer Communications Workshop (CCW’13)</a>.</li>
-                        </ul>
-                </section>
-            </div>
 
             <div class="footer">
                 <div class="pure-menu pure-menu-horizontal">

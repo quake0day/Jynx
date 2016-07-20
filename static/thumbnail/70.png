@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+<meta charset="utf-8"/>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1468846058,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"21f81ad43988cc755e7a825d3038c155",petok:"a85ff3a162f8c77388d654e585e675e9ed439054-1468982396-3600",zone:"gamepress.gg",rocket:"a",apps:{},sha2test:0}];document.write('<script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=e982913d31/cloudflare.min.js"><'+'\/script>');}}catch(e){};
+//]]>
+</script>
+<script type="text/rocketscript">(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-80708006-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("set", "page", "/403.html?page=" + document.location.pathname + document.location.search + "&amp;from=" + document.referrer);ga("send", "pageview");</script>
+<meta name="title" content="Log in | Pokemon Go"/>
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)"/>
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="shortcut icon" href="/themes/gamepressbase/favicon.ico" type="image/vnd.microsoft.icon"/>
+<title>Log in | Pokemon Go</title>
+<link rel="stylesheet" href="/sites/default/files/css/css_KQz5v5H-l_MzKfkIYJYjb5c5BK1R8d37wBnQ3cP3xQQ.css?oakklz" media="all"/>
+<link rel="stylesheet" href="/sites/default/files/css/css_xnu7AzrMa-Qx17IilYF8DtdggHs9efr_qRZjzLlr4vk.css?oakklz" media="all"/>
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<script async data-rocketsrc="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/rocketscript"></script>
+<script type="text/rocketscript">
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-5522738145890217",
+        enable_page_level_ads: true
+      });
+    </script>
+</head>
+<body class="two-sidebars path-sites">
+<div class="gamepress-branding">
+<div class="outer-wrapper">
+<div class="gamepress-logo"><img src="/logo.png"><a class="gamepresslink" target="_blank" href="http://Gamepress.gg">GamePress</a></div>
+<div class="portal-section">
+<div class="not-loggedin">
+<ul>
+<li class="first-portal-item"><a href="/user/login">Sign In</a></li>
+<li><a href="/user/register">Register</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div role="document" class="page">
+<div id="site-banner">
+<div id="block-headerbanner" class="block block-block-content block-block-contentdd522683-bff3-49ef-9c73-e079bae8f1b6">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><a href="/"><img alt="Pokemon Go Logo" data-entity-type="file" data-entity-uuid="935f00f7-282d-4c09-88ca-734b1d5aed65" src="/sites/default/files/inline-images/Pokemon-Go-Logo.png" class="align-center"/></a>
+<p> </p></div>
+</div>
+</div>
+<header id="site-header">
+<div class="outer-wrapper">
+<div id="block-gamepressbase-branding" class="block block-system block-system-branding-block">
+<a href="/" title="Home" rel="home" class="site-logo">
+<img src="/sites/default/files/pokemongoicon.png" alt="Home"/>
+</a>
+<div class="site-name">
+<a href="/" title="Home" rel="home">Pokemon Go</a>
+</div>
+</div>
+</div>
+</header>
+<div class="outer-wrapper">
+<div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-gamepressbase-search" role="search">
+<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+<div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+<label for="edit-keys" class="visually-hidden">Search</label>
+<input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search"/>
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit"/>
+</div>
+</form>
+</div>
+</div>
+<main role="main" class="outer-wrapper">
+<aside id="sidebar-first" role="complementary" class="sidebar">
+<nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+<h2 id="block-mainnavigation-menu">Menu</h2>
+<ul class="main-menu-content">
+<li class="menu-item Home"">
+                  <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                      </li>
+                <li class="menu-item Q &amp; A"">
+                  <a href="/Q-A" data-drupal-link-system-path="Q-A">Q &amp; A</a>
+                      </li>
+                <li class="menu-item Pokemon &amp; Moves Type menu-item--expanded"">
+                  <span >Pokemon & Moves Type</span>
+                                        <ul class="menu">
+                    <li class="menu-item Bug menu-item--expanded"">
+                  <span >Bug</span>
+                                        <ul class="menu">
+                    <li class="menu-item Bug Pokemon"">
+                  <a href="/pokemon-bug" data-drupal-link-system-path="pokemon-bug">Bug Pokemon</a>
+                      </li>
+                <li class="menu-item Bug Moves"">
+                  <a href="/pokemon-bug-moves" title="Pokemon Bug Moves List" data-drupal-link-system-path="pokemon-bug-moves">Bug Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Dark menu-item--expanded"">
+                  <span >Dark</span>
+                                        <ul class="menu">
+                    <li class="menu-item Dark Pokemon"">
+                  <a href="/pokemon-dark" data-drupal-link-system-path="pokemon-dark">Dark Pokemon</a>
+                      </li>
+                <li class="menu-item Dark Moves"">
+                  <a href="/pokemon-dark-moves" title="Pokemon Dark Moves List" data-drupal-link-system-path="pokemon-dark-moves">Dark Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Dragon menu-item--expanded"">
+                  <span >Dragon</span>
+                                        <ul class="menu">
+                    <li class="menu-item Dragon Pokemon"">
+                  <a href="/pokemon-dragon" data-drupal-link-system-path="pokemon-dragon">Dragon Pokemon</a>
+                      </li>
+                <li class="menu-item Dragon Moves"">
+                  <a href="/pokemon-dragon-moves" title="Pokemon Dragon Moves List" data-drupal-link-system-path="pokemon-dragon-moves">Dragon Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Electric menu-item--expanded"">
+                  <span >Electric</span>
+                                        <ul class="menu">
+                    <li class="menu-item Electric Pokemon"">
+                  <a href="/pokemon-electric" data-drupal-link-system-path="pokemon-electric">Electric Pokemon</a>
+                      </li>
+                <li class="menu-item Electric Moves"">
+                  <a href="/pokemon-electric-moves" title="Pokemon Electric Moves List" data-drupal-link-system-path="pokemon-electric-moves">Electric Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Fairy menu-item--expanded"">
+                  <span >Fairy</span>
+                                        <ul class="menu">
+                    <li class="menu-item Fairy Pokemon"">
+                  <a href="/pokemon-fairy" data-drupal-link-system-path="pokemon-fairy">Fairy Pokemon</a>
+                      </li>
+                <li class="menu-item Fairy Moves"">
+                  <a href="/pokemon-fairy-moves" title="Pokemon Fairy Moves List" data-drupal-link-system-path="pokemon-fairy-moves">Fairy Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Fighting menu-item--expanded"">
+                  <span >Fighting</span>
+                                        <ul class="menu">
+                    <li class="menu-item Fighting Pokemon"">
+                  <a href="/pokemon-fighting" data-drupal-link-system-path="pokemon-fighting">Fighting Pokemon</a>
+                      </li>
+                <li class="menu-item Fighting Moves"">
+                  <a href="/pokemon-fighting-moves" title="Pokemon Fighting Moves List" data-drupal-link-system-path="pokemon-fighting-moves">Fighting Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Fire menu-item--expanded"">
+                  <span >Fire</span>
+                                        <ul class="menu">
+                    <li class="menu-item Fire Pokemon"">
+                  <a href="/pokemon-fire" data-drupal-link-system-path="pokemon-fire">Fire Pokemon</a>
+                      </li>
+                <li class="menu-item Fire Moves"">
+                  <a href="/pokemon-fire-moves" title="Pokemon Fire Moves List" data-drupal-link-system-path="pokemon-fire-moves">Fire Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Flying menu-item--expanded"">
+                  <span >Flying</span>
+                                        <ul class="menu">
+                    <li class="menu-item Flying Pokemon"">
+                  <a href="/pokemon-flying" data-drupal-link-system-path="pokemon-flying">Flying Pokemon</a>
+                      </li>
+                <li class="menu-item Flying Moves"">
+                  <a href="/pokemon-flying-moves" title="Pokemon Flying Moves List" data-drupal-link-system-path="pokemon-flying-moves">Flying Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Ghost menu-item--expanded"">
+                  <span >Ghost</span>
+                                        <ul class="menu">
+                    <li class="menu-item Ghost Pokemon"">
+                  <a href="/pokemon-ghost" data-drupal-link-system-path="pokemon-ghost">Ghost Pokemon</a>
+                      </li>
+                <li class="menu-item Ghost Moves"">
+                  <a href="/pokemon-ghost-moves" title="Pokemon Ghost Moves List" data-drupal-link-system-path="pokemon-ghost-moves">Ghost Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Grass menu-item--expanded"">
+                  <span >Grass</span>
+                                        <ul class="menu">
+                    <li class="menu-item Grass Pokemon"">
+                  <a href="/pokemon-grass" data-drupal-link-system-path="pokemon-grass">Grass Pokemon</a>
+                      </li>
+                <li class="menu-item Grass Moves"">
+                  <a href="/pokemon-grass-moves" title="Pokemon Grass Moves List" data-drupal-link-system-path="pokemon-grass-moves">Grass Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Ground menu-item--expanded"">
+                  <span >Ground</span>
+                                        <ul class="menu">
+                    <li class="menu-item Ground Pokemon"">
+                  <a href="/pokemon-ground" data-drupal-link-system-path="pokemon-ground">Ground Pokemon</a>
+                      </li>
+                <li class="menu-item Ground Moves"">
+                  <a href="/pokemon-ground-moves" title="Pokemon Ground Moves List" data-drupal-link-system-path="pokemon-ground-moves">Ground Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Ice menu-item--expanded"">
+                  <span >Ice</span>
+                                        <ul class="menu">
+                    <li class="menu-item Ice Pokemon"">
+                  <a href="/pokemon-ice" data-drupal-link-system-path="pokemon-ice">Ice Pokemon</a>
+                      </li>
+                <li class="menu-item Ice Moves"">
+                  <a href="/pokemon-ice-moves" title="Pokemon Ice Moves List" data-drupal-link-system-path="pokemon-ice-moves">Ice Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Normal menu-item--expanded"">
+                  <span >Normal</span>
+                                        <ul class="menu">
+                    <li class="menu-item Normal Pokemon"">
+                  <a href="/pokemon-normal" data-drupal-link-system-path="pokemon-normal">Normal Pokemon</a>
+                      </li>
+                <li class="menu-item Normal Moves"">
+                  <a href="/pokemon-normal-moves" title="Pokemon Normal Moves List" data-drupal-link-system-path="pokemon-normal-moves">Normal Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Poison menu-item--expanded"">
+                  <span >Poison</span>
+                                        <ul class="menu">
+                    <li class="menu-item Poison Pokemon"">
+                  <a href="/pokemon-poison" data-drupal-link-system-path="pokemon-poison">Poison Pokemon</a>
+                      </li>
+                <li class="menu-item Poison Moves"">
+                  <a href="/pokemon-poison-moves" title="Pokemon Poison Moves List" data-drupal-link-system-path="pokemon-poison-moves">Poison Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Psychic menu-item--expanded"">
+                  <span >Psychic</span>
+                                        <ul class="menu">
+                    <li class="menu-item Psychic Pokemon"">
+                  <a href="/pokemon-psychic" data-drupal-link-system-path="pokemon-psychic">Psychic Pokemon</a>
+                      </li>
+                <li class="menu-item Psychic Moves"">
+                  <a href="/pokemon-psychic-moves" title="Pokemon Psychic Moves List" data-drupal-link-system-path="pokemon-psychic-moves">Psychic Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Rock menu-item--expanded"">
+                  <span >Rock</span>
+                                        <ul class="menu">
+                    <li class="menu-item Rock Pokemon"">
+                  <a href="/pokemon-rock" data-drupal-link-system-path="pokemon-rock">Rock Pokemon</a>
+                      </li>
+                <li class="menu-item Rock Moves"">
+                  <a href="/pokemon-rock-moves" title="Pokemon Rock Moves List" data-drupal-link-system-path="pokemon-rock-moves">Rock Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Steel menu-item--expanded"">
+                  <span >Steel</span>
+                                        <ul class="menu">
+                    <li class="menu-item Steel Pokemon"">
+                  <a href="/pokemon-steel" data-drupal-link-system-path="pokemon-steel">Steel Pokemon</a>
+                      </li>
+                <li class="menu-item Steel Moves"">
+                  <a href="/pokemon-steel-moves" title="Pokemon Steel Moves List" data-drupal-link-system-path="pokemon-steel-moves">Steel Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Water menu-item--expanded"">
+                  <span >Water</span>
+                                        <ul class="menu">
+                    <li class="menu-item Water Pokemon"">
+                  <a href="/pokemon-water" data-drupal-link-system-path="pokemon-water">Water Pokemon</a>
+                      </li>
+                <li class="menu-item Water Moves"">
+                  <a href="/pokemon-water-moves" title="Pokemon Water Moves List" data-drupal-link-system-path="pokemon-water-moves">Water Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Pokemon menu-item--expanded"">
+                  <span >Pokemon</span>
+                                        <ul class="menu">
+                    <li class="menu-item Pokemon List"">
+                  <a href="/pokemon-list" data-drupal-link-system-path="pokemon-list">Pokemon List</a>
+                      </li>
+                <li class="menu-item Strongest Offensive Pokemon Per Type"">
+                  <a href="/highest-pokemon-dps-per-type" data-drupal-link-system-path="node/346">Strongest Offensive Pokemon Per Type</a>
+                      </li>
+                <li class="menu-item Pokemon Candy Requirements"">
+                  <a href="/pokemon-evolution-requirements" data-drupal-link-system-path="pokemon-evolution-requirements">Pokemon Candy Requirements</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Moves menu-item--expanded"">
+                  <span >Moves</span>
+                                        <ul class="menu">
+                    <li class="menu-item Moves List"">
+                  <a href="/pokemon-moves" title="Pokemon Moves List" data-drupal-link-system-path="pokemon-moves">Moves List</a>
+                      </li>
+                <li class="menu-item Quick Moves"">
+                  <a href="/quick-moves" title="Pokemon Quick Moves List" data-drupal-link-system-path="quick-moves">Quick Moves</a>
+                      </li>
+                <li class="menu-item Charge Moves"">
+                  <a href="/charge-moves" title="Pokemon Charge Moves List" data-drupal-link-system-path="charge-moves">Charge Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Eggs menu-item--expanded"">
+                  <span >Eggs</span>
+                                        <ul class="menu">
+                    <li class="menu-item Pokemon - 2 km"">
+                  <a href="/pokemon-egg-list-2k" data-drupal-link-system-path="pokemon-egg-list-2k">Pokemon - 2 km</a>
+                      </li>
+                <li class="menu-item Pokemon - 5 km"">
+                  <a href="/pokemon-egg-list-5k" data-drupal-link-system-path="pokemon-egg-list-5k">Pokemon - 5 km</a>
+                      </li>
+                <li class="menu-item Pokemon - 10 km"">
+                  <a href="/pokemon-egg-list-10k" data-drupal-link-system-path="pokemon-egg-list-10k">Pokemon - 10 km</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Gyms menu-item--expanded"">
+                  <span >Gyms</span>
+                                        <ul class="menu">
+                    <li class="menu-item Gym Overview and Strategy"">
+                  <a href="/gyms" data-drupal-link-system-path="node/19">Gym Overview and Strategy</a>
+                      </li>
+                <li class="menu-item Combat"">
+                  <a href="/combat" data-drupal-link-system-path="node/321">Combat</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Guides menu-item--expanded"">
+                  <span >Guides</span>
+                                        <ul class="menu">
+                    <li class="menu-item Starter Guide for New Trainers"">
+                  <a href="/starter-guide" data-drupal-link-system-path="node/331">Starter Guide for New Trainers</a>
+                      </li>
+                <li class="menu-item How to Track Pokemon"">
+                  <a href="/how-to-track-pokemon" data-drupal-link-system-path="node/18">How to Track Pokemon</a>
+                      </li>
+                <li class="menu-item How to Throw a Poké Ball"">
+                  <a href="/how-to-throw-a-Pokeball" data-drupal-link-system-path="node/317">How to Throw a Poké Ball</a>
+                      </li>
+                <li class="menu-item Item Capacity"">
+                  <a href="/item-capacity" data-drupal-link-system-path="node/328">Item Capacity</a>
+                      </li>
+                <li class="menu-item PokéStops"">
+                  <a href="/pokestops" data-drupal-link-system-path="node/335">PokéStops</a>
+                      </li>
+                <li class="menu-item Pokémon Nests"">
+                  <a href="/pokemon-nests" data-drupal-link-system-path="node/330">Pokémon Nests</a>
+                      </li>
+                <li class="menu-item Pokémon Spawn Zones"">
+                  <a href="/pokemon-spawn-zones" data-drupal-link-system-path="node/320">Pokémon Spawn Zones</a>
+                      </li>
+                <li class="menu-item Power Leveling and XP Tips"">
+                  <a href="/power-leveling" data-drupal-link-system-path="node/324">Power Leveling and XP Tips</a>
+                      </li>
+                <li class="menu-item Pokémon Stats"">
+                  <a href="/pokemon-stats" data-drupal-link-system-path="node/322">Pokémon Stats</a>
+                      </li>
+                <li class="menu-item Pokémon Stats - Advanced"">
+                  <a href="/pokemon-stats-advanced" data-drupal-link-system-path="node/337">Pokémon Stats - Advanced</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item General Information menu-item--expanded"">
+                  <span >General Information</span>
+                                        <ul class="menu">
+                    <li class="menu-item Known Glitches and Bugs"">
+                  <a href="/known-glitches-and-bugs" data-drupal-link-system-path="node/326">Known Glitches and Bugs</a>
+                      </li>
+                <li class="menu-item Leaked Information"">
+                  <a href="/leaked-information" data-drupal-link-system-path="node/332">Leaked Information</a>
+                      </li>
+                <li class="menu-item Rumors and Speculation"">
+                  <a href="/rumors" data-drupal-link-system-path="node/336">Rumors and Speculation</a>
+                      </li>
+                <li class="menu-item False Rumors"">
+                  <a href="/false-rumors" data-drupal-link-system-path="node/327">False Rumors</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Easter Eggs menu-item--expanded"">
+                  <span >Easter Eggs</span>
+                                        <ul class="menu">
+                    <li class="menu-item Choosing Eevee Evolution"">
+                  <a href="/eevee-evolution" data-drupal-link-system-path="node/325">Choosing Eevee Evolution</a>
+                      </li>
+                <li class="menu-item Pikachu as a Starter"">
+                  <a href="/pikachu-starter" data-drupal-link-system-path="node/17">Pikachu as a Starter</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Item Guides menu-item--expanded"">
+                  <span >Item Guides</span>
+                                        <ul class="menu">
+                    <li class="menu-item Lucky Egg"">
+                  <a href="/lucky-egg" data-drupal-link-system-path="node/20">Lucky Egg</a>
+                      </li>
+                <li class="menu-item Egg Incubator"">
+                  <a href="/egg-incubator" data-drupal-link-system-path="node/24">Egg Incubator</a>
+                      </li>
+                <li class="menu-item Incense"">
+                  <a href="/incense" data-drupal-link-system-path="node/23">Incense</a>
+                      </li>
+                <li class="menu-item Lure Module"">
+                  <a href="/lure-module" data-drupal-link-system-path="node/25">Lure Module</a>
+                      </li>
+                <li class="menu-item Poké Balls"">
+                  <a href="/pokeballs" data-drupal-link-system-path="node/315">Poké Balls</a>
+                      </li>
+                <li class="menu-item Potions"">
+                  <a href="/potions" data-drupal-link-system-path="node/22">Potions</a>
+                      </li>
+                <li class="menu-item Berries"">
+                  <a href="/berries" data-drupal-link-system-path="node/26">Berries</a>
+                      </li>
+                <li class="menu-item Revives"">
+                  <a href="/revives" data-drupal-link-system-path="node/313">Revives</a>
+                      </li>
+                <li class="menu-item Storage Upgrades"">
+                  <a href="/storage-upgrades" data-drupal-link-system-path="node/312">Storage Upgrades</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Statistics menu-item--expanded"">
+                  <span >Statistics</span>
+                                        <ul class="menu">
+                    <li class="menu-item Trainer Level Rewards"">
+                  <a href="/trainer-level-rewards" data-drupal-link-system-path="node/14">Trainer Level Rewards</a>
+                      </li>
+                <li class="menu-item Experience Values"">
+                  <a href="/experience-stats" data-drupal-link-system-path="node/16">Experience Values</a>
+                      </li>
+                <li class="menu-item Level Estimator"">
+                  <a href="/level-estimator" data-drupal-link-system-path="node/345">Level Estimator</a>
+                      </li>
+                <li class="menu-item Power Up Costs"">
+                  <a href="/power-up-costs" data-drupal-link-system-path="node/339">Power Up Costs</a>
+                      </li>
+                <li class="menu-item CP Multiplier"">
+                  <a href="/cp-multiplier" data-drupal-link-system-path="node/338">CP Multiplier</a>
+                      </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+      </aside>
+        <section id="content">
+      <div id="content-inner">
+            
+
+<div id="block-gamepressbase-page-title" class="block block-core block-page-title-block">
+  
+    
+      
+  <h1 class="js-quickedit-page-title page-title">Log in</h1>
+
+
+  </div>
+
+
+<div id="block-gamepressbase-local-tasks" class="block block-core block-local-tasks-block">
+  
+    
+        <nav class="tabs" role="navigation" aria-label="Tabs">
+        <h2 class="visually-hidden">Primary tabs</h2>
+  <ul class="tabs primary"><li class="is-active"><a href="/user/login" data-drupal-link-system-path="user/login">Log in<span class="visually-hidden">(active tab)</span></a></li>
+<li><a href="/user/register" data-drupal-link-system-path="user/register">Create new account</a></li>
+<li><a href="/user/password" data-drupal-link-system-path="user/password">Reset your password</a></li>
+</ul>
+
+    </nav>
+  </div>
+
+<div id="block-gamepressbase-content" class="block block-system block-system-main-block">
+  
+    
+      <form class="user-login-form" data-drupal-selector="user-login-form" action="/sites/default/files/styles/pokemon_small/public/2016-07/70.png" method="post" id="user-login-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-name form-item-name">
+      <label for="edit-name" class="js-form-required form-required">Username</label>
+        <input autocorrect="none" autocapitalize="none" spellcheck="false" autofocus="autofocus" data-drupal-selector="edit-name" aria-describedby="edit-name--description" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" class="form-text required" required="required" aria-required="true" />
+
+            <div id="edit-name--description" class="description">
+      Enter your Pokemon Go username.
+    </div>
+  </div>
+<div class="js-form-item form-item js-form-type-password form-type-password js-form-item-pass form-item-pass">
+      <label for="edit-pass" class="js-form-required form-required">Password</label>
+        <input data-drupal-selector="edit-pass" aria-describedby="edit-pass--description" type="password" id="edit-pass" name="pass" size="60" maxlength="128" class="form-text required" required="required" aria-required="true" />
+
+            <div id="edit-pass--description" class="description">
+      Enter the password that accompanies your username.
+    </div>
+  </div>
+<input data-drupal-selector="form-csdsjixnaludidyip44kzcggpqx1vjovkxfau8yhihe" type="hidden" name="form_build_id" value="form-CSDSjIXNAlUdIDYip44KZcggPQX1vjovkxfAU8YhIhE" />
+<input data-drupal-selector="edit-user-login-form" type="hidden" name="form_id" value="user_login_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Log in" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+
+      </div>
+    </section>
+          <aside id="sidebar-second" role="complementary" class="sidebar">
+            
+
+<div class="views-element-container block block-views block-views-blockpopular-pages-block-1" id="block-views-block-popular-pages-block-1">
+  
+      <h2 >Popular Pages Today</h2>
+    
+      <div><div class="view view-popular-pages view-id-popular_pages view-display-id-block_1 js-view-dom-id-c77017ed63813863f55fb56e840c262258f3a33c9523851341b4f3fde32e9e17">
+  
+    
+      
+      <div class="view-content">
+      <div>
+  
+  <ul>
+
+          <li><a href="/highest-pokemon-dps-per-type">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-1">1</span></span>
+<span class="pages-ranking-title">Strongest Offensive Pokemon Per Type</span>
+</a></li>
+          <li><a href="/pokemon-spawn-zones">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-2">2</span></span>
+<span class="pages-ranking-title">Pokémon Spawn Zones</span>
+</a></li>
+          <li><a href="/pokemon/150">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-3">3</span></span>
+<span class="pages-ranking-title">Mewtwo</span>
+</a></li>
+          <li><a href="/pokemon-nests">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-4">4</span></span>
+<span class="pages-ranking-title">Pokémon Nests</span>
+</a></li>
+          <li><a href="/power-leveling">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-5">5</span></span>
+<span class="pages-ranking-title">Power Leveling and XP Tips</span>
+</a></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+<div id="block-sidebarad1" class="block block-block-content block-block-content2a2794df-bbbd-4526-a5d5-4ecd41ce857b">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><script async="" data-rocketsrc="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/rocketscript"></script><!-- Pokemon Go 300x250 --><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5522738145890217" data-ad-slot="8866353086"></ins>
+<script type="text/rocketscript">
+<!--//--><![CDATA[// ><!--
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+//--><!]]>
+</script></div>
+      
+  </div>
+
+<div class="views-element-container block block-views block-views-blockpopular-pages-block-2" id="block-views-block-popular-pages-block-2">
+  
+      <h2 >Popular Questions Today</h2>
+    
+      <div><div class="view view-popular-pages view-id-popular_pages view-display-id-block_2 js-view-dom-id-c5ab606a809d190cda7ec1a425b1185491daafa38cc76fb64d901af905d5d1bb">
+  
+    
+      
+      <div class="view-content">
+      <div>
+  
+  <ul>
+
+          <li><a href="/Q-A/has-it-been-confirmed-certain-regions-have-exclusive-pokemon">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-1">1</span></span>
+<span class="pages-ranking-title">Has it been confirmed that certain regions have exclusive pokemon?</span>
+</a></li>
+          <li><a href="/Q-A/trainer-level-and-cp">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-2">2</span></span>
+<span class="pages-ranking-title">Trainer Level and CP</span>
+</a></li>
+          <li><a href="/Q-A/what-best-starter-pokemon">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-3">3</span></span>
+<span class="pages-ranking-title">What is the best starter Pokemon?</span>
+</a></li>
+          <li><a href="/Q-A/why-do-some-pokemon-pictures-have-bluish-background">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-4">4</span></span>
+<span class="pages-ranking-title">Why do some Pokemon pictures have a bluish background?</span>
+</a></li>
+          <li><a href="/Q-A/poisoning-pokemon">
+<span class="pages-ranking-item"><span class="pages-ranking-number ranking-number-5">5</span></span>
+<span class="pages-ranking-title">Poisoning Pokemon</span>
+</a></li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+<div id="block-submitinformation" class="block block-block-content block-block-content87a71d26-1c5b-412c-b4da-669ebf00b45c">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><a href="/contact/submit_information">Submit Information</a></div>
+      
+  </div>
+
+<div id="block-helpusblock" class="block block-block-content block-block-contentab1d7b36-dd93-42dd-8668-cc050bb580c7">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><a href="/contact/report_an_error">Report an error</a></div>
+      
+  </div>
+
+<div id="block-sidebarad2" class="block block-block-content block-block-content6473137c-c5fb-449e-b70d-6ac11e6238a4">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><script async="" data-rocketsrc="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/rocketscript"></script><!-- Pokemon Go 300x250 #2 --><ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-5522738145890217" data-ad-slot="5485581086"></ins>
+<script type="text/rocketscript">
+<!--//--><![CDATA[// ><!--
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+//--><!]]>
+</script></div>
+      
+  </div><nav role="navigation" aria-labelledby="block-mainnavigation-2-menu" id="block-mainnavigation-2" class="block block-menu navigation menu--main">
+      
+  <h2 id="block-mainnavigation-2-menu">Menu</h2>
+  
+
+        
+              <ul class="main-menu-content">
+                    <li class="menu-item Home"">
+                  <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                      </li>
+                <li class="menu-item Q &amp; A"">
+                  <a href="/Q-A" data-drupal-link-system-path="Q-A">Q &amp; A</a>
+                      </li>
+                <li class="menu-item Pokemon &amp; Moves Type menu-item--expanded"">
+                  <span >Pokemon & Moves Type</span>
+                                        <ul class="menu">
+                    <li class="menu-item Bug menu-item--expanded"">
+                  <span >Bug</span>
+                                        <ul class="menu">
+                    <li class="menu-item Bug Pokemon"">
+                  <a href="/pokemon-bug" data-drupal-link-system-path="pokemon-bug">Bug Pokemon</a>
+                      </li>
+                <li class="menu-item Bug Moves"">
+                  <a href="/pokemon-bug-moves" title="Pokemon Bug Moves List" data-drupal-link-system-path="pokemon-bug-moves">Bug Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Dark menu-item--expanded"">
+                  <span >Dark</span>
+                                        <ul class="menu">
+                    <li class="menu-item Dark Pokemon"">
+                  <a href="/pokemon-dark" data-drupal-link-system-path="pokemon-dark">Dark Pokemon</a>
+                      </li>
+                <li class="menu-item Dark Moves"">
+                  <a href="/pokemon-dark-moves" title="Pokemon Dark Moves List" data-drupal-link-system-path="pokemon-dark-moves">Dark Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Dragon menu-item--expanded"">
+                  <span >Dragon</span>
+                                        <ul class="menu">
+                    <li class="menu-item Dragon Pokemon"">
+                  <a href="/pokemon-dragon" data-drupal-link-system-path="pokemon-dragon">Dragon Pokemon</a>
+                      </li>
+                <li class="menu-item Dragon Moves"">
+                  <a href="/pokemon-dragon-moves" title="Pokemon Dragon Moves List" data-drupal-link-system-path="pokemon-dragon-moves">Dragon Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Electric menu-item--expanded"">
+                  <span >Electric</span>
+                                        <ul class="menu">
+                    <li class="menu-item Electric Pokemon"">
+                  <a href="/pokemon-electric" data-drupal-link-system-path="pokemon-electric">Electric Pokemon</a>
+                      </li>
+                <li class="menu-item Electric Moves"">
+                  <a href="/pokemon-electric-moves" title="Pokemon Electric Moves List" data-drupal-link-system-path="pokemon-electric-moves">Electric Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Fairy menu-item--expanded"">
+                  <span >Fairy</span>
+                                        <ul class="menu">
+                    <li class="menu-item Fairy Pokemon"">
+                  <a href="/pokemon-fairy" data-drupal-link-system-path="pokemon-fairy">Fairy Pokemon</a>
+                      </li>
+                <li class="menu-item Fairy Moves"">
+                  <a href="/pokemon-fairy-moves" title="Pokemon Fairy Moves List" data-drupal-link-system-path="pokemon-fairy-moves">Fairy Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Fighting menu-item--expanded"">
+                  <span >Fighting</span>
+                                        <ul class="menu">
+                    <li class="menu-item Fighting Pokemon"">
+                  <a href="/pokemon-fighting" data-drupal-link-system-path="pokemon-fighting">Fighting Pokemon</a>
+                      </li>
+                <li class="menu-item Fighting Moves"">
+                  <a href="/pokemon-fighting-moves" title="Pokemon Fighting Moves List" data-drupal-link-system-path="pokemon-fighting-moves">Fighting Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Fire menu-item--expanded"">
+                  <span >Fire</span>
+                                        <ul class="menu">
+                    <li class="menu-item Fire Pokemon"">
+                  <a href="/pokemon-fire" data-drupal-link-system-path="pokemon-fire">Fire Pokemon</a>
+                      </li>
+                <li class="menu-item Fire Moves"">
+                  <a href="/pokemon-fire-moves" title="Pokemon Fire Moves List" data-drupal-link-system-path="pokemon-fire-moves">Fire Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Flying menu-item--expanded"">
+                  <span >Flying</span>
+                                        <ul class="menu">
+                    <li class="menu-item Flying Pokemon"">
+                  <a href="/pokemon-flying" data-drupal-link-system-path="pokemon-flying">Flying Pokemon</a>
+                      </li>
+                <li class="menu-item Flying Moves"">
+                  <a href="/pokemon-flying-moves" title="Pokemon Flying Moves List" data-drupal-link-system-path="pokemon-flying-moves">Flying Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Ghost menu-item--expanded"">
+                  <span >Ghost</span>
+                                        <ul class="menu">
+                    <li class="menu-item Ghost Pokemon"">
+                  <a href="/pokemon-ghost" data-drupal-link-system-path="pokemon-ghost">Ghost Pokemon</a>
+                      </li>
+                <li class="menu-item Ghost Moves"">
+                  <a href="/pokemon-ghost-moves" title="Pokemon Ghost Moves List" data-drupal-link-system-path="pokemon-ghost-moves">Ghost Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Grass menu-item--expanded"">
+                  <span >Grass</span>
+                                        <ul class="menu">
+                    <li class="menu-item Grass Pokemon"">
+                  <a href="/pokemon-grass" data-drupal-link-system-path="pokemon-grass">Grass Pokemon</a>
+                      </li>
+                <li class="menu-item Grass Moves"">
+                  <a href="/pokemon-grass-moves" title="Pokemon Grass Moves List" data-drupal-link-system-path="pokemon-grass-moves">Grass Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Ground menu-item--expanded"">
+                  <span >Ground</span>
+                                        <ul class="menu">
+                    <li class="menu-item Ground Pokemon"">
+                  <a href="/pokemon-ground" data-drupal-link-system-path="pokemon-ground">Ground Pokemon</a>
+                      </li>
+                <li class="menu-item Ground Moves"">
+                  <a href="/pokemon-ground-moves" title="Pokemon Ground Moves List" data-drupal-link-system-path="pokemon-ground-moves">Ground Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Ice menu-item--expanded"">
+                  <span >Ice</span>
+                                        <ul class="menu">
+                    <li class="menu-item Ice Pokemon"">
+                  <a href="/pokemon-ice" data-drupal-link-system-path="pokemon-ice">Ice Pokemon</a>
+                      </li>
+                <li class="menu-item Ice Moves"">
+                  <a href="/pokemon-ice-moves" title="Pokemon Ice Moves List" data-drupal-link-system-path="pokemon-ice-moves">Ice Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Normal menu-item--expanded"">
+                  <span >Normal</span>
+                                        <ul class="menu">
+                    <li class="menu-item Normal Pokemon"">
+                  <a href="/pokemon-normal" data-drupal-link-system-path="pokemon-normal">Normal Pokemon</a>
+                      </li>
+                <li class="menu-item Normal Moves"">
+                  <a href="/pokemon-normal-moves" title="Pokemon Normal Moves List" data-drupal-link-system-path="pokemon-normal-moves">Normal Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Poison menu-item--expanded"">
+                  <span >Poison</span>
+                                        <ul class="menu">
+                    <li class="menu-item Poison Pokemon"">
+                  <a href="/pokemon-poison" data-drupal-link-system-path="pokemon-poison">Poison Pokemon</a>
+                      </li>
+                <li class="menu-item Poison Moves"">
+                  <a href="/pokemon-poison-moves" title="Pokemon Poison Moves List" data-drupal-link-system-path="pokemon-poison-moves">Poison Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Psychic menu-item--expanded"">
+                  <span >Psychic</span>
+                                        <ul class="menu">
+                    <li class="menu-item Psychic Pokemon"">
+                  <a href="/pokemon-psychic" data-drupal-link-system-path="pokemon-psychic">Psychic Pokemon</a>
+                      </li>
+                <li class="menu-item Psychic Moves"">
+                  <a href="/pokemon-psychic-moves" title="Pokemon Psychic Moves List" data-drupal-link-system-path="pokemon-psychic-moves">Psychic Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Rock menu-item--expanded"">
+                  <span >Rock</span>
+                                        <ul class="menu">
+                    <li class="menu-item Rock Pokemon"">
+                  <a href="/pokemon-rock" data-drupal-link-system-path="pokemon-rock">Rock Pokemon</a>
+                      </li>
+                <li class="menu-item Rock Moves"">
+                  <a href="/pokemon-rock-moves" title="Pokemon Rock Moves List" data-drupal-link-system-path="pokemon-rock-moves">Rock Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Steel menu-item--expanded"">
+                  <span >Steel</span>
+                                        <ul class="menu">
+                    <li class="menu-item Steel Pokemon"">
+                  <a href="/pokemon-steel" data-drupal-link-system-path="pokemon-steel">Steel Pokemon</a>
+                      </li>
+                <li class="menu-item Steel Moves"">
+                  <a href="/pokemon-steel-moves" title="Pokemon Steel Moves List" data-drupal-link-system-path="pokemon-steel-moves">Steel Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Water menu-item--expanded"">
+                  <span >Water</span>
+                                        <ul class="menu">
+                    <li class="menu-item Water Pokemon"">
+                  <a href="/pokemon-water" data-drupal-link-system-path="pokemon-water">Water Pokemon</a>
+                      </li>
+                <li class="menu-item Water Moves"">
+                  <a href="/pokemon-water-moves" title="Pokemon Water Moves List" data-drupal-link-system-path="pokemon-water-moves">Water Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Pokemon menu-item--expanded"">
+                  <span >Pokemon</span>
+                                        <ul class="menu">
+                    <li class="menu-item Pokemon List"">
+                  <a href="/pokemon-list" data-drupal-link-system-path="pokemon-list">Pokemon List</a>
+                      </li>
+                <li class="menu-item Strongest Offensive Pokemon Per Type"">
+                  <a href="/highest-pokemon-dps-per-type" data-drupal-link-system-path="node/346">Strongest Offensive Pokemon Per Type</a>
+                      </li>
+                <li class="menu-item Pokemon Candy Requirements"">
+                  <a href="/pokemon-evolution-requirements" data-drupal-link-system-path="pokemon-evolution-requirements">Pokemon Candy Requirements</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Moves menu-item--expanded"">
+                  <span >Moves</span>
+                                        <ul class="menu">
+                    <li class="menu-item Moves List"">
+                  <a href="/pokemon-moves" title="Pokemon Moves List" data-drupal-link-system-path="pokemon-moves">Moves List</a>
+                      </li>
+                <li class="menu-item Quick Moves"">
+                  <a href="/quick-moves" title="Pokemon Quick Moves List" data-drupal-link-system-path="quick-moves">Quick Moves</a>
+                      </li>
+                <li class="menu-item Charge Moves"">
+                  <a href="/charge-moves" title="Pokemon Charge Moves List" data-drupal-link-system-path="charge-moves">Charge Moves</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Eggs menu-item--expanded"">
+                  <span >Eggs</span>
+                                        <ul class="menu">
+                    <li class="menu-item Pokemon - 2 km"">
+                  <a href="/pokemon-egg-list-2k" data-drupal-link-system-path="pokemon-egg-list-2k">Pokemon - 2 km</a>
+                      </li>
+                <li class="menu-item Pokemon - 5 km"">
+                  <a href="/pokemon-egg-list-5k" data-drupal-link-system-path="pokemon-egg-list-5k">Pokemon - 5 km</a>
+                      </li>
+                <li class="menu-item Pokemon - 10 km"">
+                  <a href="/pokemon-egg-list-10k" data-drupal-link-system-path="pokemon-egg-list-10k">Pokemon - 10 km</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Gyms menu-item--expanded"">
+                  <span >Gyms</span>
+                                        <ul class="menu">
+                    <li class="menu-item Gym Overview and Strategy"">
+                  <a href="/gyms" data-drupal-link-system-path="node/19">Gym Overview and Strategy</a>
+                      </li>
+                <li class="menu-item Combat"">
+                  <a href="/combat" data-drupal-link-system-path="node/321">Combat</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Guides menu-item--expanded"">
+                  <span >Guides</span>
+                                        <ul class="menu">
+                    <li class="menu-item Starter Guide for New Trainers"">
+                  <a href="/starter-guide" data-drupal-link-system-path="node/331">Starter Guide for New Trainers</a>
+                      </li>
+                <li class="menu-item How to Track Pokemon"">
+                  <a href="/how-to-track-pokemon" data-drupal-link-system-path="node/18">How to Track Pokemon</a>
+                      </li>
+                <li class="menu-item How to Throw a Poké Ball"">
+                  <a href="/how-to-throw-a-Pokeball" data-drupal-link-system-path="node/317">How to Throw a Poké Ball</a>
+                      </li>
+                <li class="menu-item Item Capacity"">
+                  <a href="/item-capacity" data-drupal-link-system-path="node/328">Item Capacity</a>
+                      </li>
+                <li class="menu-item PokéStops"">
+                  <a href="/pokestops" data-drupal-link-system-path="node/335">PokéStops</a>
+                      </li>
+                <li class="menu-item Pokémon Nests"">
+                  <a href="/pokemon-nests" data-drupal-link-system-path="node/330">Pokémon Nests</a>
+                      </li>
+                <li class="menu-item Pokémon Spawn Zones"">
+                  <a href="/pokemon-spawn-zones" data-drupal-link-system-path="node/320">Pokémon Spawn Zones</a>
+                      </li>
+                <li class="menu-item Power Leveling and XP Tips"">
+                  <a href="/power-leveling" data-drupal-link-system-path="node/324">Power Leveling and XP Tips</a>
+                      </li>
+                <li class="menu-item Pokémon Stats"">
+                  <a href="/pokemon-stats" data-drupal-link-system-path="node/322">Pokémon Stats</a>
+                      </li>
+                <li class="menu-item Pokémon Stats - Advanced"">
+                  <a href="/pokemon-stats-advanced" data-drupal-link-system-path="node/337">Pokémon Stats - Advanced</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item General Information menu-item--expanded"">
+                  <span >General Information</span>
+                                        <ul class="menu">
+                    <li class="menu-item Known Glitches and Bugs"">
+                  <a href="/known-glitches-and-bugs" data-drupal-link-system-path="node/326">Known Glitches and Bugs</a>
+                      </li>
+                <li class="menu-item Leaked Information"">
+                  <a href="/leaked-information" data-drupal-link-system-path="node/332">Leaked Information</a>
+                      </li>
+                <li class="menu-item Rumors and Speculation"">
+                  <a href="/rumors" data-drupal-link-system-path="node/336">Rumors and Speculation</a>
+                      </li>
+                <li class="menu-item False Rumors"">
+                  <a href="/false-rumors" data-drupal-link-system-path="node/327">False Rumors</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Easter Eggs menu-item--expanded"">
+                  <span >Easter Eggs</span>
+                                        <ul class="menu">
+                    <li class="menu-item Choosing Eevee Evolution"">
+                  <a href="/eevee-evolution" data-drupal-link-system-path="node/325">Choosing Eevee Evolution</a>
+                      </li>
+                <li class="menu-item Pikachu as a Starter"">
+                  <a href="/pikachu-starter" data-drupal-link-system-path="node/17">Pikachu as a Starter</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Item Guides menu-item--expanded"">
+                  <span >Item Guides</span>
+                                        <ul class="menu">
+                    <li class="menu-item Lucky Egg"">
+                  <a href="/lucky-egg" data-drupal-link-system-path="node/20">Lucky Egg</a>
+                      </li>
+                <li class="menu-item Egg Incubator"">
+                  <a href="/egg-incubator" data-drupal-link-system-path="node/24">Egg Incubator</a>
+                      </li>
+                <li class="menu-item Incense"">
+                  <a href="/incense" data-drupal-link-system-path="node/23">Incense</a>
+                      </li>
+                <li class="menu-item Lure Module"">
+                  <a href="/lure-module" data-drupal-link-system-path="node/25">Lure Module</a>
+                      </li>
+                <li class="menu-item Poké Balls"">
+                  <a href="/pokeballs" data-drupal-link-system-path="node/315">Poké Balls</a>
+                      </li>
+                <li class="menu-item Potions"">
+                  <a href="/potions" data-drupal-link-system-path="node/22">Potions</a>
+                      </li>
+                <li class="menu-item Berries"">
+                  <a href="/berries" data-drupal-link-system-path="node/26">Berries</a>
+                      </li>
+                <li class="menu-item Revives"">
+                  <a href="/revives" data-drupal-link-system-path="node/313">Revives</a>
+                      </li>
+                <li class="menu-item Storage Upgrades"">
+                  <a href="/storage-upgrades" data-drupal-link-system-path="node/312">Storage Upgrades</a>
+                      </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item Statistics menu-item--expanded"">
+                  <span >Statistics</span>
+                                        <ul class="menu">
+                    <li class="menu-item Trainer Level Rewards"">
+                  <a href="/trainer-level-rewards" data-drupal-link-system-path="node/14">Trainer Level Rewards</a>
+                      </li>
+                <li class="menu-item Experience Values"">
+                  <a href="/experience-stats" data-drupal-link-system-path="node/16">Experience Values</a>
+                      </li>
+                <li class="menu-item Level Estimator"">
+                  <a href="/level-estimator" data-drupal-link-system-path="node/345">Level Estimator</a>
+                      </li>
+                <li class="menu-item Power Up Costs"">
+                  <a href="/power-up-costs" data-drupal-link-system-path="node/339">Power Up Costs</a>
+                      </li>
+                <li class="menu-item CP Multiplier"">
+                  <a href="/cp-multiplier" data-drupal-link-system-path="node/338">CP Multiplier</a>
+                      </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+      </aside>
+      </main>
+
+      <footer id="site-footer" role="contentinfo">
+      <div class="outer-wrapper">
+              <section class="footer-top">
+              <nav role="navigation" aria-labelledby="block-gamepressbase-footer-menu" id="block-gamepressbase-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-gamepressbase-footer-menu">Footer menu</h2>
+  
+
+        
+              <ul class="main-menu-content">
+                    <li class="menu-item Home"">
+                  <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                      </li>
+                <li class="menu-item Q &amp; A"">
+                  <a href="/Q-A" data-drupal-link-system-path="Q-A">Q &amp; A</a>
+                      </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+        </section>
+      
+              <section class="footer-bottom">
+              
+
+<div id="block-footerblocktext" class="block block-block-content block-block-content85b50774-2028-4866-908a-064a283946ed">
+  
+    
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Made with love by <a href="http://Gamepress.gg" style="font-family:abel" target="_blank">GamePress</a></p></div>
+      
+  </div>
+
+        </section>
+            </div>
+    </footer>
+  </div>
+  
+  
+  <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"sites\/default\/files\/styles\/pokemon_small\/public","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"file":"2016-07\/70.png"}},"pluralDelimiter":"\u0003","google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ajaxTrustedUrl":{"form_action_cc611e1d":true,"\/search\/node":true},"user":{"uid":0,"permissionsHash":"267fe9b417c1e90f5684896aac544d999df527dfc107a88c214d5dcb34673021"}}</script>
+<script data-rocketsrc="/sites/default/files/js/js_lsSDbM-hDs7rs5Aa8mmrdzKU3IB2UqBnRJuIkqDm2F0.js" type="text/rocketscript"></script>
+
+</body>
+</html>
