@@ -47,7 +47,7 @@ class Pokemon(db.Document):
         return str(self.lat) + ", " + str(self.lng)
 
     def get_time(self):
-        return self.report_time
+        return self.report_time.strftime('%Y-%m-%d %H:%M:%S')
 
     def get_encounter_id(self):
         return self.encounter_id
@@ -77,7 +77,8 @@ def index():
         lng=-78.782873
     )
     sndmap = Map(
-        style = "height:500px;width:800px;margin:10;",
+        zoom = 15,
+        style = "height:500px; margin: auto; width: 95%;border: 1px solid black;padding: 10px;",
         identifier="sndmap",
         lat=43.0007,
         lng=-78.782873,
