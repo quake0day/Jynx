@@ -5,18 +5,9 @@ from flask import Flask, request, session, g, redirect, url_for, \
 from flask_mongoalchemy import MongoAlchemy
 from flask_mongoalchemy import BaseQuery
 from pokemon_id_name import get_id2name_table
+from dbConnection import getDb
 
-
-cf = ConfigParser.ConfigParser()
-cf.read("./config.ini")
-db_host = cf.get("baseconf", "host")
-db_name = cf.get("baseconf", "db_name")
-
-app = Flask(__name__)
-app.config['MONGOALCHEMY_DATABASE'] = db_name
-app.config['MONGOALCHEMY_SERVER'] = db_host
-db = MongoAlchemy(app)
-
+db = getDb('baseconf')
 class Pokemon(db.Document):
     pid = db.IntField()
     lat = db.FloatField()
