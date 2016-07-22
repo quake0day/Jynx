@@ -3,54 +3,17 @@ from flask import Flask, request, session, g, redirect, url_for, \
      abort, render_template, flash
 import csv
 import os
-from flask.ext.mongoalchemy import MongoAlchemy
-from flask.ext.mongoalchemy import BaseQuery
 from flask_googlemaps import GoogleMaps
 from flask_googlemaps import Map
-from pokemon_id_name import get_id2name_table
+from Pokemon import Pokemon
 # configuration
 DEBUG = False
 app = Flask(__name__)
-app.config['MONGOALCHEMY_DATABASE'] = 'pokemon'
 # you can set key as config
 app.config['GOOGLEMAPS_KEY'] = "AIzaSyDaxIPVJlz-F6Lry-tuXiZjwD_uglj5kdw"
-db = MongoAlchemy(app)
 app.config.from_object(__name__)
 app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 GoogleMaps(app)
-
-
-class Pokemon(db.Document):
-    pid = db.IntField()
-    lat = db.FloatField()
-    lng = db.FloatField()
-    report_time = db.DateTimeField()
-    id2name = get_id2name_table()
-    encounter_id = db.StringField()
-
-    def get_img_url(self):
-        return url_for('static', filename='img/')+str(self.pid)+".png"
-
-    def get_thumbnail_url(self):
-        return url_for('static', filename='thumbnail/')+str(self.pid)+".png"
-
-    def get_pid(self):
-            return self.pid
-
-    def get_name(self):
-        return self.id2name[self.pid]
-
-    def get_loc(self):
-        return self.lat, self.lng
-
-    def get_loc_display(self):
-        return str(self.lat) + ", " + str(self.lng)
-
-    def get_time(self):
-        return self.report_time.strftime('%Y-%m-%d %H:%M:%S')
-
-    def get_encounter_id(self):
-        return self.encounter_id
 
 
 
@@ -93,6 +56,6 @@ def page_not_found(error):
     return render_template('404.html'), 404
 
 if __name__ == "__main__":
-    app.run(host= '10.0.1.19')
+    app.run(host= '0.0.0.0')
 
             
