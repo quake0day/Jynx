@@ -157,40 +157,39 @@ def main(username, password, auth, start_lat, start_lon):
         #api.download_settings(hash="4a2e9bc330dae60e7b74fc85b98868ab4700802e")
 
         # execute the RPC call
-        # try:
-        response_dict = api.call()
-        map_cells = response_dict['responses']['GET_MAP_OBJECTS']['map_cells']
-        for cell in map_cells:
-            # if "nearby_pokemons" in cell:
-            #     print "nearby_pokemons"
-            #     print cell['nearby_pokemons']
-            if "catchable_pokemons" in cell:
-                #print "catchable_pokemons"
-                print cell['catchable_pokemons']
-                for pokemon in cell['catchable_pokemons']:
-                    pokemon_id = int(pokemon['pokemon_id'])
-                    longitude = float(pokemon['longitude'])
-                    latitude = float(pokemon['latitude'])
-                    encounter_id = str(pokemon['encounter_id'])
-                    expiration_timestamp_ms = str(pokemon['expiration_timestamp_ms'])
-                    if not EncounterList.query.filter(EncounterList.ID == encounter_id).first():
-                        print "GOT ONE!"
-                        print "Pokemon ID: ",pokemon_id
-                        print longitude
-                        print latitude
-                        #my_date = datetime.datetime.now(pytz.timezone('US/Eastern'))
-                        new_pokemon = Pokemon(pid=pokemon_id, lat=latitude, lng=longitude, encounter_id=encounter_id, report_time=datetime.utcnow())
-                        new_pokemon.save()
-                        el = EncounterList(ID=encounter_id)
-                        el.save()
-                        # ENCOUNTER_ID_LIST.append(encounter_id)
-                        # if len(ENCOUNTER_ID_LIST) > 5000:
-                        #     ENCOUNTER_ID_LIST.popleft()
-        start_lat, start_lon = next_lat, next_lon
-        sleep(5)
-        # except Exception, e:
-        #     print e
-        #     #pass
+        try:
+            response_dict = api.call()
+            map_cells = response_dict['responses']['GET_MAP_OBJECTS']['map_cells']
+            for cell in map_cells:
+                # if "nearby_pokemons" in cell:
+                #     print "nearby_pokemons"
+                #     print cell['nearby_pokemons']
+                if "catchable_pokemons" in cell:
+                    #print "catchable_pokemons"
+                    print cell['catchable_pokemons']
+                    for pokemon in cell['catchable_pokemons']:
+                        pokemon_id = int(pokemon['pokemon_id'])
+                        longitude = float(pokemon['longitude'])
+                        latitude = float(pokemon['latitude'])
+                        encounter_id = str(pokemon['encounter_id'])
+                        expiration_timestamp_ms = str(pokemon['expiration_timestamp_ms'])
+                        if not EncounterList.query.filter(EncounterList.ID == encounter_id).first():
+                            print "GOT ONE!"
+                            print "Pokemon ID: ",pokemon_id
+                            print longitude
+                            print latitude
+                            #my_date = datetime.datetime.now(pytz.timezone('US/Eastern'))
+                            new_pokemon = Pokemon(pid=pokemon_id, lat=latitude, lng=longitude, encounter_id=encounter_id, report_time=datetime.utcnow())
+                            new_pokemon.save()
+                            el = EncounterList(ID=encounter_id)
+                            el.save()
+                            # ENCOUNTER_ID_LIST.append(encounter_id)
+                            # if len(ENCOUNTER_ID_LIST) > 5000:
+                            #     ENCOUNTER_ID_LIST.popleft()
+            start_lat, start_lon = next_lat, next_lon
+            sleep(5)
+        except Exception, e:
+            pass
     # save_data(ENCOUNTER_ID_LIST)
 
 # def save_data(dataset):
