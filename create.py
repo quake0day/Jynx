@@ -5,8 +5,10 @@ from Account import Account
 #no1 = Pokemon(pid=1,lat=10.001,lng=10.101, encounter_id="123123" ,report_time =  datetime.now() )
 #no1.save()
 
-no1 = Account(username = 'initiateftzu@gmail.com', password = 'gsjhT!Xfud39Sc', auth='google')
-no1.save()
+#no1 = Account(username = 'initiateftzu@gmail.com', password = 'gsjhT!Xfud39Sc', auth='google')
+#no1.save()
+no5 = Location(lat = 43.0019009, lng = -78.78605961)
+no5.save()
 # no3 = Account(username = 'zzzlog1', password = '@Lara4cs', auth='ptc')
 # no3.save()
 # no4 = Account(username = 'zzzlog2', password = '@Lara4cs', auth='ptc')
