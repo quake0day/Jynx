@@ -220,6 +220,8 @@ if __name__ == '__main__':
 
     try:
         while 1:
+            if account.getUsed() == 2:
+                break
             main(account, location)
     except:
         if account.getUsed() != 2:
