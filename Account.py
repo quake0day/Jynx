@@ -20,7 +20,7 @@ class Account(db.Document):
         self.password = password
         self.auth = auth 
         self.isUsed = 0
-        return 
+        return 0
 
 
     def getInfo(self):
@@ -29,11 +29,14 @@ class Account(db.Document):
     def getUsed(self):
         return self.isUsed 
 
+    def disable(self):
+        self.isUsed = 2
+        return 0
 
     def set(self):
         self.isUsed = 1
-        return "DONE"
+        return 0
 
     def reset(self):
         self.isUsed = 0
-        return 
+        return 0

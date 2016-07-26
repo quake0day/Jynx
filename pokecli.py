@@ -104,7 +104,7 @@ def init_config():
 
 
 
-def main(username, password, auth, start_lat, start_lon):
+def main(account, location):
     #client = pykemon.V1Client()
     # log settings
     # log format
@@ -116,9 +116,9 @@ def main(username, password, auth, start_lat, start_lon):
     # log level for internal pgoapi class
     logging.getLogger("rpc_api").setLevel(logging.INFO)
 
-
+    start_lat, start_lon = location.getLocation()
+    username, password, auth = account.getInfo() 
     #[username, password, auth, lat, lng]
-
     position = (start_lat, start_lon, 0.0) 
     api = PGoApi()
 
@@ -126,6 +126,8 @@ def main(username, password, auth, start_lat, start_lon):
     api.set_position(*position)
 
     if not api.login(auth, username, password):
+        account.disable()
+        account.save()
         return
 
     # chain subrequests (methods) into one RPC call
@@ -214,15 +216,15 @@ def move(lat1, lon1, d=0.01, b=0):
 if __name__ == '__main__':
 
     account, location = init_config()
-    start_lat, start_lon = location.getLocation()
-    username, password, auth = account.getInfo() 
+
 
     try:
         while 1:
-            main(username, password, auth, start_lat, start_lon)
+            main(account, location)
     except:
-        account.reset()
-        account.save()
+        if account.getUsed() != 2:
+            account.reset()
+            account.save()
         location.setOff()
         location.save()
 
