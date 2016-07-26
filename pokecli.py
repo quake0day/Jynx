@@ -146,7 +146,7 @@ def main(account, location):
     # except:
     #     ENCOUNTER_ID_LIST = []
     # ENCOUNTER_ID_LIST = collections.deque(ENCOUNTER_ID_LIST)
-    for i in xrange(10):
+    for i in xrange(36):
         bearing = random.randint(0, 90)
         step_length = random.uniform(0.01, 0.02)
         next_lat, next_lon = move(start_lat, start_lon, step_length, bearing)
@@ -189,7 +189,7 @@ def main(account, location):
                             # if len(ENCOUNTER_ID_LIST) > 5000:
                             #     ENCOUNTER_ID_LIST.popleft()
             start_lat, start_lon = next_lat, next_lon
-            sleep(5)
+            sleep(20)
         except Exception, e:
             pass
     # save_data(ENCOUNTER_ID_LIST)
