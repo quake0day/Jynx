@@ -3,7 +3,7 @@ from Account import Account
 
 i = 0 
 while 1:
-    account = Account.query.filter(Account.isUsed == 2).first()
+    account = Account.query.filter(Account.isUsed != 0).first()
     if account == None:
         break
     account.reset()
